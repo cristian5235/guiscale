@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "guiscale",
+  "version": "${version}",
+  "name": "Custom GUI Scale",
+  "description": "Makes GUI scale 4 (or Auto) look like a fixed 640-unit-wide interface.",
+  "environment": "client",
+  "mixins": ["guiscale.mixins.json"],
+  "depends": { "fabricloader": ">=0.18.0", "minecraft": "~1.21.11" }
+}
